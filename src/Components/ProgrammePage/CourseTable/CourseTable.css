@@ -1,0 +1,59 @@
+/********************* Course Table *********************/
+.color-FF914D{
+    color: #FF914D;
+}
+
+.course-table{
+    padding: 8px;
+    color: black;
+}
+
+.syllabus-table{
+    border-collapse: collapse;
+    margin: 12px 0px;
+    font-size: 16px;
+    min-width: 400px;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+
+.syllabus-table:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.syllabus-table thead tr{
+    background-color: #0089B5;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.syllabus-table th{
+    padding: 12px 6px;
+}
+
+.syllabus-table th a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.syllabus-table td{
+    padding: 2px 5px;
+}
+
+.course-divider{
+    border-bottom: 1px solid #dddddd;
+}
+
+.sem-divider{
+    border-bottom: 3px solid #0089B5;
+}
+
+.syllabus-table tbody tr:last-of-type{
+    border-bottom: 3px solid #0089B5;
+}
+
+.text-align-center{
+    text-align: center;
+}

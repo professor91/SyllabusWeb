@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// react imports
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+// component imports
+import TopBar from "./Components/Topbar/TopBar";
+import Footer from "./Components/Footer/Footer";
+import Home from "./Components/Home/Home"
+import Ug from "./Stages/Ug";
+import Pg from "./Stages/Pg";
+import BscHCS from "./Programmes/bscHCS/bscHCS";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return(
+      <Router>
+          <TopBar heading="Syllabus Web"/>
+
+          <Routes>
+              <Route path="/" element={<Home />}></Route>
+              <Route path="/ug" element={<Ug />}></Route>
+              <Route path="/ug/bschcs" element={<BscHCS />}></Route>
+              <Route path="/pg" element={<Pg />}></Route>
+          </Routes>
+
+          <Footer />
+      </Router>
+    );
 }
 
 export default App;

@@ -1,0 +1,30 @@
+/**************************************** List of Programmes ****************************************/
+.syllabus-container{
+    box-sizing: border-box; 
+}
+
+.programme-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: 30px;
+    grid-gap: 10px;
+    grid-template-areas: "header header";
+}
+
+.programme-grid-header{
+    grid-area: header;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+/* .programme-grid-item{
+    grid-column: auto;
+} */
+
+.programme-grid-item a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}

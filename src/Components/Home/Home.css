@@ -1,0 +1,32 @@
+.page-top{
+    display: flex;
+    padding: 50px 0px;
+    height: 68vh;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.paragraph{
+    font-size: 18px;
+    padding-top: 25px
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.right-box{
+    flex: 1;
+    max-width: 800px;    
+}
+
+.hero-box{
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    box-shadow: black;
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}

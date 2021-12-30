@@ -1,0 +1,69 @@
+/*********************** Course List ***********************/
+
+.bgcolor-f5f5f5{
+    background-color: #f5f5f5;
+}
+.bgcolor-fff{
+    background-color: #fff;
+}
+.flex-2{
+    flex: 2;
+}
+.font-style{
+    font-size: 22px;
+    font-weight: 560;
+}
+
+.course-list{
+    padding-top: 10px;
+}
+
+.course-name a{
+    text-decoration: none;
+    color: black;
+}
+
+.list-block{
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.list-block h2{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.list-block-content{
+    display:flex;
+}
+
+.course-name{
+    padding-bottom: 3px;
+}
+
+.course-block:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.left-margin{
+    padding-left: 70px;
+}
+
+.misc-info{
+    font-size: 18px;
+    flex: 1;
+}
+
+.misc-info-box{
+    padding: 10px 10px;
+    width: 230px;
+    list-style-type: none;
+}
+
+.depart-ge-block a{
+    text-decoration: none;
+    color: black;
+}
