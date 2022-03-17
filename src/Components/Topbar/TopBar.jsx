@@ -7,8 +7,8 @@ const TopBar = (props) => {
     return (
         // NavBar
         <nav
-            class="navbar navbar-expand-lg navbar-light static-top"
-            style={{padding: "10px 20px"}}>
+            class="container navbar navbar-expand-lg navbar-light static-top"
+            style={{padding: "10px 0px"}}>
             <div
                 class="container-fluid">
                 <Link
