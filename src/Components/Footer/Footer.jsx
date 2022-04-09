@@ -15,13 +15,23 @@ const Footer = () => {
                 <div 
                     className="f-courses-list d-flex justify-content-between">
                     <div>
-                        <div>UG Courses</div>
-                        <div>Certificates</div>
-                        <div>PhD</div>
+                        <div> 
+                            <a href="/programmes/ug">UG Courses</a>
+                        </div>
+                        <div>
+                            <a href="/programmes/certificate">Certificates</a>
+                        </div>
+                        <div>
+                            <a href="/programmes/phd">PhD</a>
+                        </div>
                     </div>
                     <div>
-                        <div>PG Courses</div>
-                        <div>Diploma</div>
+                        <div>
+                            <a href="/programmes/pg">PG Courses</a>
+                        </div>
+                        <div>
+                            <a href="/programmes/diploma">Diploma</a>
+                        </div>
                     </div>
                 </div>
             </div>
