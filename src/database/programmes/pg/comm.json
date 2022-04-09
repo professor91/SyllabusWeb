@@ -1,0 +1,15 @@
+{
+    "Courses" :   [
+        ["M.B.A. Applied Psychology",                                ""],
+        ["M.B.A. Business Economics",                                ""],
+        ["M.B.A. Executive",                                         ""],
+        ["M.B.A. Finance",                                           ""],
+        ["M.B.A. Health Care Administration",                        ""],
+        ["M.B.A. Human Resource Management",                         ""],
+        ["M.B.A. International Business",                            ""],
+        ["M.B.A. Public Systems Management",                         ""],
+        ["M.Com. Commerce",                                          ""],
+        ["MFC Finance and Control",                                  ""],
+        ["M.H.R.D Human Resource Development",                       ""]
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Courses" : [
+        ["BSc Hons Anthropology",                                               "bscHanthro"],
+        ["BSc Hons Biochemistry",                                               "bscHbiochem"],
+        ["BSc Hons Biological Science",                                         "bscHbiosci"],
+        ["BSc Hons Biomedical Science",                                         "bscHbiomed"],
+        ["BSc Hons Botany",                                                     "bscHbotany"],
+        ["BSc Hons Chemistry",                                                  "bscHchem"],
+        ["BSc Hons Computer Science",                                           "bscHcs"],
+        ["BSc Hons Electronics",                                                "bscHelec"],
+        ["BSc Hons Forensic Science",                                           "bscHforensic"],
+        ["BSc Hons Instrumentation",                                            "bscHinstr"],
+        ["BSc Hons Maths",                                                      "bscHmath"],
+        ["BSc Hons Microbiology",                                               "bscHmicrobio"],
+        ["Bsc Hons Occupational Therapy",                                       "bscHoccuptherapy"],
+        ["BSc Hons Physics",                                                    "bscHphysics"],
+        ["BSc Hons Statistics",                                                 "bscHstats"],
+        ["BSc Hons Zoology",                                                    "bscHzoology"],
+        ["Bsc Analytical Chemistry",                                            "bscanalyticchem"],
+        ["Bsc Applied Life Sciences with Agro-Chemical & Pest Management",      "bscagrochem"],
+        ["Bsc Applied Physical Sciences (Industrial Chemistry)",                "bscindustrialchem"],
+        ["Bsc Fisheries Science",                                               "bscfisheries"],
+        ["Bsc Life Sciences",                                                   "bsclifesci"],
+        ["BSc Mathematical Science",                                            "bscmathsci"],
+        ["BSc Physical Science with Computer Science",                          "bscphysicalwithcs"],
+        ["BSc Physical Education, Health Education & Sports",                   "bscphysicaled"],
+        ["BSc Sericulture",                                                     "bscsericulture"]
+    ]
+}

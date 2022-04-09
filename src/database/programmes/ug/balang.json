@@ -1,0 +1,24 @@
+{
+    "Courses" : [
+        ["B.A. Hons Sanskrit",          ""],
+        ["B.A. Hons Hindi",             ""],
+        ["B.A. Hons Bengali",           ""],
+        ["B.A. Hons Punjabi",           ""],
+        ["B.A. Hons English",           ""],
+        ["B.A. Hons Arabic",            ""],
+        ["B.A. Hons Urdu",              ""],
+        ["B.A. Hons Spanish",           ""],
+        ["B.A. Hons Zongha",            ""],
+        ["B.A. Hons French",            ""],
+        ["B.A. Hons German",            ""],
+        ["B.A. Hons Italian",           ""],
+        ["B.A. Hons Persian",           ""],
+        ["B.A. Hindi",                  ""],
+        ["B.A. Functional Hindi",       ""],
+        ["B.A. Arabic",                 ""],
+        ["B.A. Studies",                ""],
+        ["B.A. Education",              ""],
+        ["B.A. Psychology",             ""],
+        ["B.A. Applications",           ""]
+    ]
+}

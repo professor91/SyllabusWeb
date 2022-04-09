@@ -1,0 +1,32 @@
+{
+    "Courses" : [
+        ["M.Sc. Anthropology",                                           ""],
+        ["M.Sc. Applied Physics",                                        ""],
+        ["M.Sc. Biochemistry",                                           ""],
+        ["M.Sc. Biomedical Science",                                     ""],
+        ["M.Sc. Biophysics",                                             ""],
+        ["M.Sc. Biotechnology",                                          ""],
+        ["M.Sc. Botany",                                                 ""],
+        ["M.Sc. Chemistry",                                              ""],
+        ["M.Sc. Computer Science",                                       ""],
+        ["M.Sc. Development Communication and Extension",                ""],
+        ["M.Sc. Electronics",                                            ""],
+        ["M.Sc. Environmental Science",                                  ""],
+        ["M.Sc. Food Nutrition",                                         ""],
+        ["M.Sc. Forensic Sciences",                                      ""],
+        ["M.Sc. Genetics",                                               ""],
+        ["M.Sc. Geology",                                                ""],
+        ["M.Sc. Home Science",                                           ""],
+        ["M.Sc. Informatics",                                            ""],
+        ["M.Sc. Mathematics",                                            ""],
+        ["M.Sc. Microbiology",                                           ""],
+        ["M.Sc. Physics",                                                ""],
+        ["M.Sc. Plant Molecular Biology",                                ""],
+        ["M.Sc. Resource Management and Consumer Service",               ""],
+        ["M.Sc. Statistics",                                             ""],
+        ["M.Sc. Zoology",                                                ""],
+        ["M.Sc. Human Development and Child Welfare",                    ""],
+        ["M.Sc. Fabric and Apparel Designing",                           ""],
+        ["M.C.A. Computer Applications",                                 ""]
+    ]
+}
