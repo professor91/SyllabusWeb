@@ -31,7 +31,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td>I</td>
                                 <td className="text-align-center">1</td>
-                                    <td>{props.corecourse1}</td>
+                                    <td>{props.corecourse[0]}</td>
                                     <td className="text-align-center">AECC-1</td>
                                     <td></td>
                                     <td></td>
@@ -40,7 +40,7 @@ const CourseTable = (props) => {
                         <tr className="course-divider">
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse2}</td>
+                                    <td>{props.corecourse[1]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -49,7 +49,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td class="text-align-center">2</td>
-                                    <td>{props.corecourse3}</td>
+                                    <td>{props.corecourse[2]}</td>
                                     <td class="text-align-center">AECC-2</td>
                                     <td></td>
                                     <td></td>
@@ -58,7 +58,7 @@ const CourseTable = (props) => {
                         <tr className="sem-divider">
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse4}</td>
+                                    <td>{props.corecourse[3]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -68,7 +68,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td>II</td>
                                 <td class="text-align-center">3</td>
-                                    <td>{props.corecourse5}</td>
+                                    <td>{props.corecourse[4]}</td>
                                     <td></td>
                                     <td class="text-align-center">SEC-1</td>
                                     <td></td>
@@ -77,7 +77,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse6}</td>
+                                    <td>{props.corecourse[5]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -86,7 +86,7 @@ const CourseTable = (props) => {
                         <tr class="course-divider">
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse7}</td>
+                                    <td>{props.corecourse[6]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -95,7 +95,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td class="text-align-center">4</td>
-                                    <td>{props.corecourse8}</td>
+                                    <td>{props.corecourse[7]}</td>
                                     <td></td>
                                     <td class="text-align-center">SEC-2</td>
                                     <td></td>
@@ -104,7 +104,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse9}</td>
+                                    <td>{props.corecourse[8]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -113,7 +113,7 @@ const CourseTable = (props) => {
                         <tr class="sem-divider">
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse10}</td>
+                                    <td>{props.corecourse[9]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -123,7 +123,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td>III</td>
                                 <td class="text-align-center">5</td>
-                                    <td>{props.corecourse11}</td>
+                                    <td>{props.corecourse[10]}</td>
                                     <td></td>
                                     <td></td>
                                     <td class="text-align-center">DSC-1</td>
@@ -132,7 +132,7 @@ const CourseTable = (props) => {
                         <tr class="course-divider">
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse12}</td>
+                                    <td>{props.corecourse[11]}</td>
                                     <td></td>
                                     <td></td>
                                     <td class="text-align-center">DSC-2</td>
@@ -141,7 +141,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td class="text-align-center">6</td>
-                                    <td>{props.corecourse13}</td>
+                                    <td>{props.corecourse[12]}</td>
                                     <td></td>
                                     <td></td>
                                     <td class="text-align-center">DSC-3</td>
@@ -150,7 +150,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse14}</td>
+                                    <td>{props.corecourse[13]}</td>
                                     <td></td>
                                     <td></td>
                                     <td class="text-align-center">DSC-4</td>
@@ -187,7 +187,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td>I</td>
                                 <td className="text-align-center">1</td>
-                                    <td>{props.corecourse1}</td>
+                                    <td>{props.corecourse[0]}</td>
                                     <td className="text-align-center">AECC-1</td>
                                     <td></td>
                                     <td></td>
@@ -196,7 +196,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse2}</td>
+                                    <td>{props.corecourse[1]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -205,7 +205,7 @@ const CourseTable = (props) => {
                         <tr className="course-divider">
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse3}</td>
+                                    <td>{props.corecourse[2]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -214,7 +214,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td className="text-align-center">2</td>
-                                    <td>{props.corecourse4}</td>
+                                    <td>{props.corecourse[3]}</td>
                                     <td className="text-align-center">AECC-2</td>
                                     <td></td>
                                     <td></td>
@@ -223,7 +223,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse5}</td>
+                                    <td>{props.corecourse[4]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -232,7 +232,7 @@ const CourseTable = (props) => {
                         <tr className="sem-divider">
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse6}</td>
+                                    <td>{props.corecourse[5]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -242,7 +242,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td>II</td>
                                 <td className="text-align-center">3</td>
-                                    <td>{props.corecourse7}</td>
+                                    <td>{props.corecourse[6]}</td>
                                     <td></td>
                                     <td class="text-align-center">SEC-1</td>
                                     <td></td>
@@ -251,7 +251,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse8}</td>
+                                    <td>{props.corecourse[7]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -260,7 +260,7 @@ const CourseTable = (props) => {
                         <tr className="course-divider">
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse9}</td>
+                                    <td>{props.corecourse[8]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -269,7 +269,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td className="text-align-center">4</td>
-                                    <td>{props.corecourse10}</td>
+                                    <td>{props.corecourse[9]}</td>
                                     <td></td>
                                     <td className="text-align-center">SEC-2</td>
                                     <td></td>
@@ -278,7 +278,7 @@ const CourseTable = (props) => {
                         <tr>
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse11}</td>
+                                    <td>{props.corecourse[10]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -287,7 +287,7 @@ const CourseTable = (props) => {
                         <tr className="sem-divider">
                             <td></td>
                                 <td></td>
-                                    <td>{props.corecourse12}</td>
+                                    <td>{props.corecourse[11]}</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
