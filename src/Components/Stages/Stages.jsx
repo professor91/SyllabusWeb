@@ -16,29 +16,68 @@ const ProgrammesGrid= (props) => {
     var jsonData
 
     if (props.type=== "bsc") {
-        jsonData= require('../../database/programmes/ug/bsc.json')
+        jsonData= require('../../database/ug/bsc.json')
     }
     else if (props.type=== "ba") {
-        jsonData= require('../../database/programmes/ug/ba.json')
+        jsonData= require('../../database/ug/ba.json')
     }
     else if (props.type=== "balang") {
-        jsonData= require('../../database/programmes/ug/balang.json')
+        jsonData= require('../../database/ug/balang.json')
     }
     else if (props.type=== "comm") {
-        jsonData= require('../../database/programmes/ug/comm.json')
+        jsonData= require('../../database/ug/comm.json')
     }
 
     else if (props.type=== "msc") {
-        jsonData= require('../../database/programmes/pg/msc.json')
+        jsonData= require('../../database/pg/msc.json')
     }
     else if (props.type=== "ma") {
-        jsonData= require('../../database/programmes/pg/ma.json')
+        jsonData= require('../../database/pg/ma.json')
     }
     else if (props.type=== "malang") {
-        jsonData= require('../../database/programmes/pg/malang.json')
+        jsonData= require('../../database/pg/malang.json')
     }
     else if (props.type=== "mcomm") {
-        jsonData= require('../../database/programmes/pg/comm.json')
+        jsonData= require('../../database/pg/comm.json')
+    }
+
+    else if (props.type=== "phdsci") {
+        jsonData= require('../../database/phd/pureScience.json')
+    }
+    else if (props.type=== "phdengineering") {
+        jsonData= require('../../database/phd/engineering.json')
+    }
+    else if (props.type=== "phdlang") {
+        jsonData= require('../../database/phd/lang.json')
+    }
+    else if (props.type=== "phdarts") {
+        jsonData= require('../../database/phd/arts.json')
+    }
+
+    else if (props.type=== "certisci") {
+        jsonData= require('../../database/certificate/science.json')
+    }
+    else if (props.type=== "certiarts") {
+        jsonData= require('../../database/certificate/arts.json')
+    }
+    else if (props.type=== "certilang") {
+        jsonData= require('../../database/certificate/lang.json')
+    }
+    else if (props.type=== "certicomm") {
+        jsonData= require('../../database/certificate/comm.json')
+    }
+
+    else if (props.type=== "dipsci") {
+        jsonData= require('../../database/diploma/science.json')
+    }
+    else if (props.type=== "diparts") {
+        jsonData= require('../../database/diploma/arts.json')
+    }
+    else if (props.type=== "diplang") {
+        jsonData= require('../../database/diploma/lang.json')
+    }
+    else if (props.type=== "dipcomm") {
+        jsonData= require('../../database/diploma/comm.json')
     }
 
     const final= jsonData["Courses"]
