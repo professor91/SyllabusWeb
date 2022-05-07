@@ -1,20 +1,18 @@
-// import react from "react";
 import "./CourseList.css"
 
 const CourseList = (props) => {
-    const blockc= props.typeName+" course-block"
-    const blockid= props.typeName+"-block"
-    const listblockc= "list-block "+props.bgcolor
     var block
 
-    if (props.type === "1"){
-        block= <CourseListBlock1 
+    if (props.type === "sublist"){
+        block= <CourseListBlock2
                         courses= {props.courses}
+                        count= {props.count}
+                        typeName= {props.typeName}
                         />
     }
-    else if(props.type === "3"){
+    else if(props.type === "ge"){
         return(
-                <CourseListBlock3 
+                <GECourseList 
                         typeName= {props.typeName}
                         heading= {props.heading}
                         courses= {props.courses}
@@ -22,12 +20,11 @@ const CourseList = (props) => {
         )
     }
     else{
-        block= <CourseListBlock2
+        block= <CourseListBlock1 
                         courses= {props.courses}
-                        count= {props.count}
-                        typeName= {props.typeName}
                         />
     }
+    
     // credits-box class
     var miscboxc
     if(props.bgcolor === "bgcolor-f5f5f5"){
@@ -36,14 +33,17 @@ const CourseList = (props) => {
     else{
         miscboxc= "misc-info-box bgcolor-f5f5f5"
     }
+
     // returning the rendered component
     return(
-        <div className={blockc} itemID={blockid}>
-            <div className={listblockc}>
+        <div className={props.typeName+" course-block"} itemID={props.typeName+"-block"}>
+            <div className={"list-block "+props.bgcolor}>
                 <h2>{props.heading}</h2>
                 <div className="d-flex">
+                    
                     {/* List of Courses */}
                     {block}
+
                     {/* Credits Info */}
                     <div className="misc-info container-sm">
                         <ul className={miscboxc}>
@@ -59,27 +59,24 @@ const CourseList = (props) => {
 }
 
 const CourseListBlock1 = (props) => {
-    const courselistc= props.typeName+"-course-list flex-2"
-    const courses= props.courses
-    const final= []
     
-    for (let course of courses){
-        final.push(
-                <div className="course-name">
-                    <a href="/">{course}</a>
-                </div>
-                )
-    }
-
     return(
-        <div className={courselistc}>
-            {final}
+        <div 
+            className={props.typeName+"-course-list flex-2"}>
+            {
+                props.courses.map(
+                    course =>
+                        <div 
+                            className="course-name">
+                            <div>{course}</div>
+                        </div>
+                )
+            }
         </div>
     )
 }
 
 const CourseListBlock2 = (props) => {
-    const courselistc= props.typeName+"-course-list flex-2"
     const courses= props.courses
     var count= props.courses.length
     const semifinal= []
@@ -96,7 +93,7 @@ const CourseListBlock2 = (props) => {
             semifinal.push(
                 <div 
                     className="course-name left-margin">
-                    <a href="/">{course}</a>
+                    <div>{course}</div>
                 </div>
                 ) 
         }
@@ -109,36 +106,21 @@ const CourseListBlock2 = (props) => {
     )
 
     return(
-        <div className={courselistc}>
+        <div className={props.typeName+"-course-list flex-2"}>
             {final}
         </div>
 
     )
 }
 
-const CourseListBlock3 = (props) => {
-    const blockc= props.typeName
-    const blockid= props.typeName+"-block"
-    const listblockc= "bg-f5f5f5"
-    
-    const courselistc= props.typeName+" flex-2"
-    const courses= props.courses
-    const final= []
-
-    for (let course of courses){
-        final.push(
-                <div className="course-name">
-                    <a href="/">{course}</a>
-                </div>
-                )
-    }
+const GECourseList = (props) => {
 
     return(
         <div 
-            className={blockc} 
-            itemID={blockid}
+            className={props.typeName} 
+            itemID={props.typeName+"-block"}
             style={{paddingTop: 20}}>
-            <div className={listblockc}>
+            <div className= "bg-f5f5f5">
                 <h2>{props.heading}</h2>
                 <p 
                     style={{fontsize: 20, paddingBottom: 15}}>
@@ -147,8 +129,15 @@ const CourseListBlock3 = (props) => {
                         from the chosen discipline.
                 </p>
                 <div className="d-flex">
-                    <div className={courselistc}>
-                        {final}
+                    <div className={props.typeName+" flex-2"}>
+                        {
+                            props.courses.map(
+                                course =>
+                                    <div className="course-name">
+                                        <div>{course}</div>
+                                    </div>
+                            )
+                        }
                     </div>
                 </div>
             </div>
@@ -156,4 +145,4 @@ const CourseListBlock3 = (props) => {
     );
 }
 
-export default CourseList
+export default CourseList;

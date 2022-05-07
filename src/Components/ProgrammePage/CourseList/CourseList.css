@@ -18,8 +18,7 @@
     padding-top: 10px;
 }
 
-.course-name a{
-    text-decoration: none;
+.course-name div{
     color: black;
 }
 
