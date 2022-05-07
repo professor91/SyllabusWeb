@@ -7,17 +7,17 @@ const TopBar = (props) => {
     return (
         // NavBar
         <nav
-            class="container navbar navbar-expand-lg navbar-light static-top"
+            className="container navbar navbar-expand-lg navbar-light static-top"
             style={{padding: "10px 0px"}}>
             <div
-                class="container-fluid">
+                className="container-fluid">
                 <Link
-                    class="navbar-brand h1 text-primary fontSize-40"
+                    className="navbar-brand h1 text-primary fontSize-40"
                     to="/SyllabusWeb">
                     {props.heading}
                 </Link>
     
-                <button class="navbar-toggler"
+                <button className="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent"
@@ -25,28 +25,28 @@ const TopBar = (props) => {
                         aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span
-                            class="navbar-toggler-icon">
+                            className="navbar-toggler-icon">
                         </span>
                 </button>
     
                 <div 
-                    class="collapse navbar-collapse"
+                    className="collapse navbar-collapse"
                     id="navbarSupportedContent">
                     <ul
-                        class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li
-                            class="nav-item">
+                            className="nav-item">
                             <Link
-                                class="nav-link text-primary active"
+                                className="nav-link text-primary active"
                                 aria-current="page"
                                 to="/SyllabusWeb">
                                 Home
                             </Link>
                         </li>
                         <li
-                            class="nav-item dropdown">
+                            className="nav-item dropdown">
                             <Link
-                                class="nav-link dropdown-toggle"
+                                className="nav-link dropdown-toggle"
                                 to="/"
                                 id="navbarDropdown"
                                 role="button"
@@ -55,47 +55,47 @@ const TopBar = (props) => {
                               Courses
                             </Link>
                             <ul
-                                class="dropdown-menu"
+                                className="dropdown-menu"
                                 aria-labelledby="navbarDropdown">
                                 <li><Link
-                                        class="dropdown-item"
+                                        className="dropdown-item"
                                         to="/programmes/ug">
                                         UG
                                     </Link>
                                 </li>
                                 <li><Link
-                                        class="dropdown-item"
+                                        className="dropdown-item"
                                         to="/programmes/pg">
                                         PG
                                     </Link>
                                 </li>
                                 <li><Link
-                                        class="dropdown-item"
-                                        to="/">
+                                        className="dropdown-item"
+                                        to="/programmes/phd">
                                         PhD
                                     </Link>
                                 </li>
                                 <li>
-                                    <hr class="dropdown-divider" />
+                                    <hr className="dropdown-divider" />
                                 </li>
                                 <li><Link
-                                        class="dropdown-item"
-                                        to="/">
+                                        className="dropdown-item"
+                                        to="/programmes/certificate">
                                         Certificate
                                     </Link>
                                 </li>
                                 <li><Link
-                                        class="dropdown-item"
-                                        to="/">
+                                        className="dropdown-item"
+                                        to="/programmes/diploma">
                                         Diploma
                                     </Link>
                                 </li>
                             </ul>
                         </li>
                         <li
-                            class="nav-item">
+                            className="nav-item">
                             <Link
-                                class="nav-link"
+                                className="nav-link"
                                 to="/">
                                 Contribute
                             </Link>
@@ -108,4 +108,4 @@ const TopBar = (props) => {
     );
 }
 
-export default TopBar
+export default TopBar;
