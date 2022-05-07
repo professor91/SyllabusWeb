@@ -1,0 +1,100 @@
+{
+    "meta"  : {
+                "courseType" : "hons",
+                "programmeName" : "BSc Hons Biological Science",
+                "credits" : {
+                    "dsc" : "6",
+                    "sec" : "6",
+                    "dse" : "6",
+                    "ge" : "6",
+                    "aecc" : "4"
+                },
+                "type" : {
+                    "dsc" : "list",
+                    "sec" : "list",
+                    "dse" : "list"
+                }
+    },
+
+    "core"  : [
+        "Chemistry",
+        "Light and Life",
+        "Biophysics",
+        "Biodiversity",
+        "Proteins and Enzymes",
+        "Cell Biology",
+        "Ecology",
+        "Systems Physiology",
+        "Molecular Biology",
+        "Metabolism and Integration",
+        "Growth and Reproduction",
+        "Genetics",
+        "Immunobiology",
+        "Evolutionary Biology"
+    ],
+
+    "dsc"   : {
+                "list" : [
+                    "Chemistry",
+                    "Light and Life",
+                    "Biophysics",
+                    "Biodiversity",
+                    "Proteins and Enzymes",
+                    "Cell Biology",
+                    "Ecology",
+                    "Systems Physiology",
+                    "Molecular Biology",
+                    "Metabolism and Integration",
+                    "Growth and Reproduction",
+                    "Genetics",
+                    "Immunobiology",
+                    "Evolutionary Biology"
+                ]
+    },
+
+    "sec"   : {
+                "list" : [
+                    "Medicinal Botany",
+                    "Medical Diagnostics",
+                    "Bioinformatics",
+                    "Organic Farming",
+                    "Public Health Management",
+                    "Biochemical Techniques"
+                ]
+
+    },
+
+    "dse"   : {
+                "list" : [
+                    "Plant Physiology",
+                    "Animal Behaviour and Chronobiology",
+                    "Biotechnology",
+                    "Endocrinology",
+                    "Natural Resource Management",
+                    "Wildlife Biology and Conservation",
+                    "Nutritional Biochemistry"
+                ]
+    },
+
+    "aecc"  : {
+                "list" : [
+                    "English",
+                    "Environmental Science"
+    ]},
+
+    "ge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]},
+        
+    "deptge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]}
+}

@@ -1,0 +1,59 @@
+{
+        "core"  : [
+            "Introduction to Biological Anthropology",
+            "Introduction to Socio-cultural Anthropology",
+            "Archaeological Anthropology",
+            "Fundamentals of Human Origin & Evolution",
+            "Tribes and Peasants in India",
+            "Human Ecology: Biological & Cultural dimensions",
+            "Biological Diversity in Human Populations",
+            "Theories of Culture and Society",
+            "Human Growth and Development",
+            "Research Methods",
+            "Human Population Genetics",
+            "Anthropology in Practice",
+            "Forensic Anthropology",
+            "Anthropology of India"
+        ],
+    
+        "dsc"   : [
+            "Introduction to Biological Anthropology",
+            "Introduction to Socio-cultural Anthropology",
+            "Archaeological Anthropology",
+            "Fundamentals of Human Origin & Evolution",
+            "Tribes and Peasants in India",
+            "Human Ecology: Biological & Cultural dimensions",
+            "Biological Diversity in Human Populations",
+            "Theories of Culture and Society",
+            "Human Growth and Development",
+            "Research Methods",
+            "Human Population Genetics",
+            "Anthropology in Practice",
+            "Forensic Anthropology",
+            "Anthropology of India"
+        ],
+    
+        "sec"   : [
+                    [
+                    ],
+                    [
+                    ]
+        ],
+    
+        "dse"   : [
+                    [
+                    ],
+                    [
+                    ],
+                    [
+                    ],
+                    [
+                    ]
+        ],
+    
+        "aecc"  : [
+        ],
+    
+        "ge"    : [
+        ]
+    }

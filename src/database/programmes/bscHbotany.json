@@ -1,0 +1,103 @@
+{
+    "meta"  : {
+                "courseType" : "hons",
+                "programmeName" : "BSc Hons Botany",
+                "credits" : {
+                    "dsc" : "6",
+                    "sec" : "6",
+                    "dse" : "6",
+                    "ge" : "6",
+                    "aecc" : "4"
+                },
+                "type" : {
+                    "dsc" : "list",
+                    "sec" : "list",
+                    "dse" : "list"
+                }
+    },
+
+    "core"  : [
+        "Microbiology and Phycology",
+        "Biomolecules and Cell Biology",
+        "Mycology and Phytopathology",
+        "Archegoniatae",
+        "Anatomy of Angiosperms",
+        "Economic Botany",
+        "Genetics",
+        "Molecular Biology",
+        "Ecology",
+        "Plant Systematics",
+        "Reproductive Biology of Angiosperms",
+        "Plant Physiology",
+        "Plant Metabolism",
+        "Plant Biotechnology"
+    ],
+
+    "dsc"   : {
+                "list" : [
+                    "Microbiology and Phycology",
+                    "Biomolecules and Cell Biology",
+                    "Mycology and Phytopathology",
+                    "Archegoniatae",
+                    "Anatomy of Angiosperms",
+                    "Economic Botany",
+                    "Genetics",
+                    "Molecular Biology",
+                    "Ecology",
+                    "Plant Systematics",
+                    "Reproductive Biology of Angiosperms",
+                    "Plant Physiology",
+                    "Plant Metabolism",
+                    "Plant Biotechnology"
+                ]
+    },
+
+    "sec"   : {
+                "list" : [
+                    "Ethnobotany",
+                    "Intellectual Property Rights",
+                    "Plant Diversity and Human Welfare",
+                    "Floriculture",
+                    "Biofertilizers",
+                    "Medicinal Botany",
+                    "Mushroom Culture and Technology",
+                    "Nursery and Gardening"
+                ]
+
+    },
+
+    "dse"   : {
+                "list" : [
+                    "Analytical Techniques in Plant Sciences",
+                    "Biostatistics",
+                    "Natural Resource Management",
+                    "Industrial and Environmental Microbiology",
+                    "Bioinformatics",
+                    "Plant Breeding"
+                ]
+    },
+
+    "aecc"  : {
+                "list" : [
+                    "English",
+                    "Environmental Science"
+    ]},
+
+    "ge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]},
+        
+    "deptge"    : {
+        "list": [
+            "Biodiversity (Microbes, Algae, Fungi and Archegoniatae)",
+            "Plant Anatomy and Embryology",
+            "Plant Ecology and Taxonomy",
+            "Plant Physiology and Metabolism",
+            "Environmental Biotechnology",
+            "Economic Botany and Biotechnology"
+        ]}
+}

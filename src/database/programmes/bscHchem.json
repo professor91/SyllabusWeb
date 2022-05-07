@@ -1,0 +1,114 @@
+{
+    "meta"  : {
+                "courseType" : "hons",
+                "programmeName" : "BSc Hons Chemistry",
+                "credits" : {
+                    "dsc" : "6",
+                    "sec" : "6",
+                    "dse" : "6",
+                    "ge" : "6",
+                    "aecc" : "4"
+                },
+                "type" : {
+                    "dsc" : "list",
+                    "sec" : "list",
+                    "dse" : "list"
+                }
+    },
+
+    "core"  : [
+        "Atomic Structure & Chemical Bonding",
+        "States of Matter & Ionic Equilibrium",
+        "Basics and Hydrocarbons",
+        "Chemical Thermodynamics and its Applications",
+        "s- and p-Block Elements",
+        "Halogenated Hydrocarbons and Oxygen Containing Functional",
+        "Phase Equilibria and Electrochemical Cells",
+        "Coordination Chemistry",
+        "Nitrogen containing functional groups, Polynuclear Hydrocarbons, Heterocyclic Chemistry, Alkaloids and Terpenes",
+        "Conductance & Chemical Kinetics",
+        "Biomolecules",
+        "Quantum Chemistry & Spectroscopy",
+        "Organometallic Chemistry & Bio-inorganic Chemistry",
+        "Spectroscopy & Applied Organic Chemistry"
+    ],
+
+    "dsc"   : {
+                "list" : [
+                    "Atomic Structure & Chemical Bonding (Inorganic Chemistry)",
+                    "States of Matter & Ionic Equilibrium (Physical Chemistry)",
+                    "Basics and Hydrocarbons (Organic Chemistry)",
+                    "Chemical Thermodynamics and its Applications (Physical Chemistry)",
+                    "s- and p-Block Elements (Inorganic Chemistry)",
+                    "Halogenated Hydrocarbons and Oxygen Containing Functional (Organic Chemistry)",
+                    "Phase Equilibria and Electrochemical Cells (Physical Chemistry)",
+                    "Coordination Chemistry (Inorganic Chemistry)",
+                    "Nitrogen containing functional groups, Polynuclear Hydrocarbons, Heterocyclic Chemistry, Alkaloids and Terpenes (Organic Chemistry)",
+                    "Conductance & Chemical Kinetics (Physical Chemistry)",
+                    "Biomolecules (Organic Chemistry)",
+                    "Quantum Chemistry & Spectroscopy (Physical Chemistry)",
+                    "Organometallic Chemistry & Bio-inorganic Chemistry (Inorganic Chemistry)",
+                    "Spectroscopy & Applied Organic Chemistry (Organic Chemistry)"
+                ]
+    },
+
+    "sec"   : {
+                "list" : [
+                    "IT Skills for Chemists",
+                    "Basic Analytical Chemistry",
+                    "Chemical Technology & Society",
+                    "Cheminformatics",
+                    "Business Skills for Chemists",
+                    "Intellectual Property Rights",
+                    "Analytical Clinical Biochemistry",
+                    "Green Methods in Chemistry",
+                    "Pharmaceutical Chemistry",
+                    "Chemistry of Cosmetics & Perfumes",
+                    "Pesticide Chemistry",
+                    "Fuel Chemistry"
+                ]
+
+    },
+
+    "dse"   : {
+                "list" : [
+                    "Novel Inorganic Solids",
+                    "Inorganic Materials of Industrial Importance",
+                    "Applications of Computers in Chemistry",
+                    "Analytical Methods in Chemistry",
+                    "Molecular Modelling & Drug Design",
+                    "Polymer Chemistry",
+                    "Research Methodology for Chemistry",
+                    "Green Chemistry",
+                    "Industrial Chemicals & Environment",
+                    "Instrumental Methods of Chemical Analysis",
+                    "Nanoscale Materials and their Applications"
+                ]
+    },
+
+    "aecc"  : {
+                "list" : [
+                    "English",
+                    "Environmental Science"
+    ]},
+
+    "ge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]},
+        
+    "deptge"    : {
+        "list": [
+            "Atomic Structure, Bonding, General Organic Chemistry & Aliphatic Hydrocarbons",
+            "Chemical Energetics, Equilibria & Functional Group Organic Chemistry-I",
+            "Solutions, Phase Equilibrium, Conductance, Electrochemistry & Functional Group Organic Chemistry-II",
+            "Chemistry of s- and p-block elements, States of matter and Chemical Kinetics",
+            "Chemistry of d-block elements, Quantum Chemistry and Spectroscopy",
+            "Organometallics, Bioinorganic chemistry, Polynuclear hydrocarbons and UV, IR Spectroscopy",
+            "Molecules of life",
+            "Green Chemistry: Designing Chemistry for human health and environment"
+        ]}
+}

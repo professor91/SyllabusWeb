@@ -1,0 +1,101 @@
+{
+    "meta"  : {
+                "courseType" : "hons",
+                "programmeName" : "BSc Hons Biochemistry",
+                "credits" : {
+                    "dsc" : "6",
+                    "sec" : "6",
+                    "dse" : "6",
+                    "ge" : "6",
+                    "aecc" : "4"
+                },
+                "type" : {
+                    "dsc" : "list",
+                    "sec" : "list",
+                    "dse" : "list"
+                }
+    },
+
+    "core"  : [
+        "Molecules of Life",
+        "Cell Biology",
+        "Proteins",
+        "Enzymes",
+        "Metabolism of Carbohydrates and Lipids",
+        "Membrane Biology and Bioenergetics",
+        "Hormone: Biochemistry and Function",
+        "Human Physiology",
+        "Gene Organization, Replication and Repair",
+        "Metabolism of Amino Acids and Nucleotides",
+        "Concepts in Genetics",
+        "Gene Expression and Regulation",
+        "Genetic Engineering and Biotechnology",
+        "Immunology"
+    ],
+
+    "dsc"   : {
+                "list" : [
+                    "Molecules of Life",
+                    "Cell Biology",
+                    "Proteins",
+                    "Enzymes",
+                    "Metabolism of Carbohydrates and Lipids",
+                    "Membrane Biology and Bioenergetics",
+                    "Hormone: Biochemistry and Function",
+                    "Human Physiology",
+                    "Gene Organization, Replication and Repair",
+                    "Metabolism of Amino Acids and Nucleotides",
+                    "Concepts in Genetics",
+                    "Gene Expression and Regulation",
+                    "Genetic Engineering and Biotechnology",
+                    "Immunology"
+                ]
+    },
+
+    "sec"   : {
+                "list" : [
+                    "Biochemical Techniques",
+                    "Biostatistics",
+                    "Research Methodology",
+                    "Bioinformatics",
+                    "Microbial Techniques"
+                ]
+
+    },
+
+    "dse"   : {
+                "list" : [
+                    "Nutritional Biochemistry",
+                    "Advanced Cell Biology",
+                    "Microbiology",
+                    "Molecular Basis of Infectious Diseases",
+                    "Plant Biochemistry",
+                    "Advanced Methodologies"
+                ]
+    },
+
+    "aecc"  : {
+                "list" : [
+                    "English",
+                    "Environmental Science"
+    ]},
+
+    "ge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]},
+        
+    "deptge"    : {
+        "list": [
+            "Biomolecules",
+            "Techniques in Biochemistry",
+            "Proteins and Enzymes",
+            "Biochemical Correlation of Diseases",
+            "Intermediary Metabolism",
+            "Biochemical Applications in Forensics",
+            "Recombinant DNA Technology"
+        ]}
+}

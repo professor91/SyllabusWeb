@@ -1,0 +1,30 @@
+{
+    "Courses" : [
+        ["Ph.D. Analog & Integrated Circuits",                  ""],
+        ["Ph.D. Composite Material",                            ""],
+        ["Ph.D. Control Systems",                               ""],
+        ["Ph.D. Electrical Machines & Drives",                  ""],
+        ["Ph.D. Engineering Geology",                           ""],
+        ["Ph.D. Environmental Engineering",                     ""],
+        ["Ph.D. Fiber Optics & Optical Communication",          ""],
+        ["Ph.D. Gas Dynamics",                                  ""],
+        ["Ph.D. I.C. Engines",                                  ""],
+        ["Ph.D. Instrumentation & Finite Element Analysis",     ""],
+        ["Ph.D. Machine Design",                                ""],
+        ["Ph.D. Machine Dynamics",                              ""],
+        ["Ph.D. Metal Forming & Foundry Technology",            ""],
+        ["Ph.D. Microwave Communication",                       ""],
+        ["Ph.D. Power Systems",                                 ""],
+        ["Ph.D. Refrigeration & Air Conditioning",              ""],
+        ["Ph.D. Rotodynamics",                                  ""],
+        ["Ph.D. Steam & Gas Turbine Power Plants",              ""],
+        ["Ph.D. Structural Dynamics",                           ""],
+        ["Ph.D. Structural Engineering",                        ""],
+        ["Ph.D. Thermal Engineering",                           ""],
+        ["Ph.D. Turbo Machinery",                               ""],
+        ["Ph.D. Vibrations",                                    ""],
+        ["Ph.D. Water Resources Engineering",                   ""]
+    ],
+
+    "Medical" : ["Ph.D. Physiology",                            ""]
+}

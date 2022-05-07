@@ -1,0 +1,21 @@
+{
+    "Courses" : [
+        ["Post Graduate Diploma (P.G.D.C.A.) Computer Applications",        ""],
+        ["Post Graduate Diploma Dietetics",                                 ""],
+        ["Post Graduate Diploma Molecular and Biochemical Technology",      ""],
+        ["Post Graduate Diploma Public Health Nutrition",                   ""],
+        ["Post Graduate Diploma Nanotechnology",                            ""],
+        ["Diploma (D.Pharma) Pharmacy",                                     ""],
+        ["Diploma Anaesthesiology",                                         ""],
+        ["Diploma (DMRD) Medical Radio Diagnosis",                          ""],
+        ["Diploma Ophthalmology",                                           ""],
+        ["D.L.O.",                                                          ""],
+        ["Diploma Tuberculosis & Chest Diseases",                           ""],
+        ["Diploma (DCH) Child Health",                                      ""],
+        ["Diploma (DGO) Gynaecology & Obstetrics",                          ""],
+        ["Post Graduate Diploma Dermatology",                               ""],
+        ["Post Graduate Diploma Developmental Therapy",                     ""],
+        ["Post graduate Diploma Leprosy",                                   ""],
+        ["Post Graduate Diploma Venereology",                               ""]
+    ]
+}

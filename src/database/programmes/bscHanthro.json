@@ -1,0 +1,105 @@
+{
+    "meta"  : {
+                "courseType" : "hons",
+                "programmeName" : "BSc Hons Anthropology",
+                "credits" : {
+                    "dsc" : "6",
+                    "sec" : "6",
+                    "dse" : "6",
+                    "ge" : "6",
+                    "aecc" : "4"
+                },
+                "type" : {
+                    "dsc" : "list",
+                    "sec" : "list",
+                    "dse" : "list"
+                }
+    },
+
+    "core"  : [
+        "Introduction to Biological Anthropology",
+        "Introduction to Socio-cultural Anthropology",
+        "Archaeological Anthropology",
+        "Fundamentals of Human Origin & Evolution",
+        "Tribes and Peasants in India",
+        "Human Ecology: Biological & Cultural dimensions",
+        "Biological Diversity in Human Populations",
+        "Theories of Culture and Society",
+        "Human Growth and Development",
+        "Research Methods",
+        "Human Population Genetics",
+        "Anthropology in Practice",
+        "Forensic Anthropology",
+        "Anthropology of India"
+    ],
+
+    "dsc"   : {
+                "list" : [
+                    "Introduction to Biological Anthropology",
+                    "Introduction to Socio-cultural Anthropology",
+                    "Archaeological Anthropology",
+                    "Fundamentals of Human Origin & Evolution",
+                    "Tribes and Peasants in India",
+                    "Human Ecology: Biological & Cultural dimensions",
+                    "Biological Diversity in Human Populations",
+                    "Theories of Culture and Society",
+                    "Human Growth and Development",
+                    "Research Methods",
+                    "Human Population Genetics",
+                    "Anthropology in Practice",
+                    "Forensic Anthropology",
+                    "Anthropology of India"
+                ]
+    },
+
+    "sec"   : {
+                "list" : [
+                    "Public Health and Epidemiology",
+                    "Business and Corporate Anthropology",
+                    "Tourism Anthropology",
+                    "Media Anthropology"
+                ]
+
+    },
+
+    "dse"   : {
+                "list" : [
+                    "Physiological Anthropology",
+                    "Sports and Nutritional Anthropology",
+                    "Human Genetics",
+                    "Neuro Anthropology",
+                    "Forensic Dermatoglyphics",
+                    "Paleoanthropology",
+                    "Anthropology of Religion, Politics and Economy",
+                    "Tribal Cultures of India",
+                    "Indian Archaeology",
+                    "Visual Anthropology",
+                    "Fashion Anthropology",
+                    "Demographic Anthropology",
+                    "Urban Anthropology",
+                    "Anthropology of Health"
+                ]
+    },
+
+    "aecc"  : {
+                "list" : [
+                    "English",
+                    "Environmental Science"
+    ]},
+
+    "ge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]},
+        
+    "deptge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]}
+}

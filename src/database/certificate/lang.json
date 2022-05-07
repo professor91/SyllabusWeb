@@ -1,0 +1,27 @@
+{
+    "Courses" : [
+        ["Certificate Course Hindi",                                ""],
+        ["Certificate Course Pali",                                 ""],
+        ["Certificate Course Punjabi",                              ""],
+        ["Certificate Course Tibetan",                              ""],
+        ["Certificate Course Pali Language and Literature",         ""],
+        ["Certificate Course Urdu",                                 ""],
+        ["Certificate Course Modern Arabic",                        ""],
+        ["Certificate Course English Language Proficiency",         ""],
+        ["Certificate Course Bulgarian Language",                   ""],
+        ["Certificate Course Croatian Language",                    ""],
+        ["Certificate Course Czech Language",                       ""],
+        ["Certificate Course Hungarian Language",                   ""],
+        ["Certificate Course Modern Persian",                       ""],
+        ["Certificate Course Serbian Language",                     ""],
+        ["Certificate Course Slovak",                               ""],
+        ["Certificate Course Swahili",                              ""],
+        ["Certificate Course German",                               ""],
+        ["Certificate Course French Language",                      ""],
+        ["Certificate Course Spanish",                              ""],
+        ["Certificate Course Italian",                              ""],
+        ["Certificate Course Russian Language",                     ""],
+        ["Certificate Course Russian",                              ""],
+        ["Certificate Course Polish",                               ""]
+    ]
+}

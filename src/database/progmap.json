@@ -1,0 +1,10 @@
+{
+    "bschcs"        :   "./database/programmes/bscHcs.json",
+    "bscHanthro"    :   "./database/programmes/bscHanthro.json",
+    "bscHbiochem"   :   "./database/programmes/bscHbiochem.json",
+    "bscHbiosci"    :   "./database/programmes/bscHbiosci.json",
+    "bscHbotany"    :   "./database/programmes/bscHbotany.json",
+    "bscHchem"      :   "./database/programmes/bscHchem.json",
+    "bscHelec"      :   "./database/programmes/bscHelec.json",
+    "bscHmath"      :   "./database/programmes/bscHmath.json"
+}

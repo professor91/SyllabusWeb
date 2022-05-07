@@ -1,0 +1,108 @@
+{
+    "meta"  : {
+                "courseType" : "hons",
+                "programmeName" : "BSc Hons Electronics",
+                "credits" : {
+                    "dsc" : "6",
+                    "sec" : "6",
+                    "dse" : "6",
+                    "ge" : "6",
+                    "aecc" : "4"
+                },
+                "type" : {
+                    "dsc" : "list",
+                    "sec" : "list",
+                    "dse" : "list"
+                }
+    },
+
+    "core"  : [
+        "Basic Circuit Theory and Network Analysis",
+        "Mathematics Foundation for Electronics",
+        "Semiconductor Devices",
+        "Applied Physics",
+        "Electronic Circuits",
+        "Digital Electronics and VHDL",
+        "C Programming and Data Structures",
+        "Operational Amplifiers and Applications",
+        "Signals and Systems",
+        "Electronic Instrumentation",
+        "Microprocessors and Microcontrollers",
+        "Electromagnetics",
+        "Communication Electronics",
+        "Photonics"
+    ],
+
+    "dsc"   : {
+                "list" : [
+                    "Basic Circuit Theory and Network Analysis",
+                    "Mathematics Foundation for Electronics",
+                    "Semiconductor Devices",
+                    "Applied Physics",
+                    "Electronic Circuits",
+                    "Digital Electronics and VHDL",
+                    "C Programming and Data Structures",
+                    "Operational Amplifiers and Applications",
+                    "Signals and Systems",
+                    "Electronic Instrumentation",
+                    "Microprocessors and Microcontrollers",
+                    "Electromagnetics",
+                    "Communication Electronics",
+                    "Photonics"
+                ]
+    },
+
+    "sec"   : {
+                "list" : [
+                    "Design and Fabrication of Printed Circuit Boards",
+                    "Robotics",
+                    "Mobile Applications Development",
+                    "Internet and Java Programming",
+                    "Programming with LabVIEW"
+                ]
+
+    },
+
+    "dse"   : {
+                "list" : [
+                    "Power Electronics",
+                    "Numerical Analysis",
+                    "Modern Communication Systems",
+                    "Semiconductor Fabrication and Characterization",
+                    "Electrical Machines",
+                    "Basic VLSI Design",
+                    "Digital Signal Processing",
+                    "Control Systems",
+                    "Computer Networks",
+                    "Embedded Systems",
+                    "Biomedical Instrumentation",
+                    "Transmission Lines, Antenna and Wave Propagation",
+                    "Dissertation"
+                ]
+    },
+
+    "aecc"  : {
+                "list" : [
+                    "English",
+                    "Environmental Science"
+    ]},
+
+    "ge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]},
+        
+    "deptge"    : {
+        "list": [
+            "Electronic Circuits and PCB Designing",
+            "Digital System Design",
+            "Instrumentation",
+            "Practical Electronics",
+            "Communication Systems",
+            "Microprocessor and Microcontroller Systems",
+            "Consumer Electronics"
+        ]}
+}

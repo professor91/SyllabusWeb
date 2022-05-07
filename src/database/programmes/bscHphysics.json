@@ -1,0 +1,156 @@
+{
+    "meta"  : {
+                "courseType" : "hons",
+                "programmeName" : "BSc Hons Mathematics",
+                "credits" : {
+                    "dsc" : "6",
+                    "sec" : "6",
+                    "dse" : "6",
+                    "ge" : "6",
+                    "aecc" : "4"
+                },
+                "type" : {
+                    "dsc" : "list",
+                    "sec" : "list",
+                    "dse" : "sublist"
+                }
+    },
+
+    "core"  : [
+        "Mathematical Physics - I",
+        "Mechanics",
+        "Electricity and Magnetism",
+        "Waves and Optics",
+        "Mathematical Physics - II",
+        "Thermal Physics",
+        "Digital Systems and Applications",
+        "Mathematical Physics - III",
+        "Elements of Modern Physics",
+        "Analog Systems and Applications",
+        "Quantum Mechanics and Applications",
+        "Solid State Physics",
+        "Electromagnetic Theory",
+        "Statistical Mechanics"
+    ],
+
+    "dsc"   : {
+                "list" : [
+                    "Mathematical Physics - I",
+                    "Mechanics",
+                    "Electricity and Magnetism",
+                    "Waves and Optics",
+                    "Mathematical Physics - II",
+                    "Thermal Physics",
+                    "Digital Systems and Applications",
+                    "Mathematical Physics - III",
+                    "Elements of Modern Physics",
+                    "Analog Systems and Applications",
+                    "Quantum Mechanics and Applications",
+                    "Solid State Physics",
+                    "Electromagnetic Theory",
+                    "Statistical Mechanics"
+                ]
+    },
+
+    "sec"   : {
+                "list" : [
+                    "III/IV Physics Workshop Skills",
+                    "III/IV Computational Physics Skills",
+                    "III/IV Electrical Circuit and Network Skills",
+                    "III/IV Basic Instrumentation Skills",
+                    "III/IV Renewable Energy and Energy Harvesting",
+                    "III/IV Engineering design and prototyping/Technical Drawing",
+                    "III/IV Radiation Safety",
+                    "III/IV Applied Optics",
+                    "III/IV Weather Forecasting",
+                    "III/IV Introduction to Physical Computing",
+                    "III/IV Numerical Analysis"
+                ]
+
+    },
+
+    "dse"   : {
+                "list" : [
+                    [
+                        "Odd Sem (DSE-1, DSE-2)",
+
+                        "Experimental Techniques",
+                        "Advanced Mathematical Physics",
+                        "Nuclear and Particle Physics",
+                        "Physics of Devices and Communication",
+                        "Astronomy and Astrophysics",
+                        "Atmospheric Physics",
+                        "Biological Physics",
+                        "Embedded Systems- Introduction of Microcontroller",
+                        "Linear Algebra and Tensor Analysis"
+                    ],
+
+                    [
+                        "Even Sem (DSE-3, DSE-4)",
+
+                        "Nano Materials and Applications",
+                        "Communication System",
+                        "Medical Physics",
+                        "Applied Dynamics",
+                        "Digital Signal processing",
+                        "Physics of the Earth",
+                        "Advanced Mathematical Physics II",
+                        "Classical Dynamics",
+                        "Verilog and FPGA based system design",
+                        "Advanced Quantum Mechanics"
+                    ]
+                ]
+    },
+
+    "aecc"  : {
+                "list" : [
+                    "English",
+                    "Environmental Science",
+                    "Modern Indian Language Communication"
+    ]},
+
+    "ge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]},
+        
+    "deptge"    : {
+        "list": [
+            [
+                "GE-1",
+                "Electricity and Magnetism",
+                "Mathematical Physics",
+                "Digital, Analog and Instrumentation",
+                "Applied Dynamics",
+                "Medical Physics"
+            ],
+            [
+                "GE-2",
+                "Mechanics",
+                "Elements of Modern Physics",
+                "Solid State Physics",
+                "Embedded Systems - Introduction of Microcontroller",
+                "Biological Physics"
+            ],
+            [
+                "GE-3",
+                "Waves and Optics",
+                "Quantum Mechanics",
+                "Communication System",
+                "Verilog and FPGA based system design",
+                "Nano Materials and Applications"
+            ],
+            [
+                "GE-4",
+                "Thermal Physics and Statistical Mechanics",
+                "Digital Signal processing",
+                "Nuclear and Particle Physics",
+                "Astronomy and Astrophysics",
+                "Atmospheric Physics",
+                "Physics of the Earth"
+            ]
+        ]}
+}

@@ -1,0 +1,21 @@
+{
+    "Courses" : [
+        ["Ph.D. Sanskrit",                                      ""],
+        ["Ph.D. Hindi",                                         ""],
+        ["Ph.D. Punjabi",                                       ""],
+        ["Ph.D. Arabic",                                        ""],
+        ["Ph.D. Urdu",                                          ""],
+        ["Ph.D. English",                                       ""],
+        ["Ph.D. Croatian",                                      ""],
+        ["Ph.D. Czech",                                         ""],
+        ["Ph.D. Hungarian",                                     ""],
+        ["Ph.D. Persian",                                       ""],
+        ["Ph.D. Bulgarian",                                     ""],
+        ["Ph.D. Polish",                                        ""],
+        ["Ph.D. Russian",                                       ""],
+        ["Ph.D. Serbian",                                       ""],
+        ["Ph.D. Slovak",                                        ""],
+        ["Ph.D. French/German/Hispanic/Italian Studies",        ""],
+        ["Ph.D. Linguistics",                                   ""]
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "meta"  : {
+                "courseType" : "hons",
+                "programmeName" : "BSc Hons Mathematics",
+                "credits" : {
+                    "dsc" : "6",
+                    "sec" : "6",
+                    "dse" : "6",
+                    "ge" : "6",
+                    "aecc" : "4"
+                },
+                "type" : {
+                    "dsc" : "list",
+                    "sec" : "list",
+                    "dse" : "sublist"
+                }
+    },
+
+    "core"  : [
+        "Calculus",
+        "Algebra",
+        "Real Analysis",
+        "Differential Equations",
+        "Theory of Real Functions",
+        "Group Theory-I",
+        "Multivariate Calculus",
+        "Partial Differential Equations",
+        "Riemann Integration and Series of Functions",
+        "Ring Theory and Linear Algebra-I",
+        "Metric Spaces",
+        "Complex Analysis",
+        "Ring Theory and Linear Algebra-II"
+
+    ],
+
+    "dsc"   : {
+                "list" : [
+                    "BMH101: Calculus",
+                    "BMH102: Algebra",
+                    "BMH203: Real Analysis",
+                    "BMH204: Differential Equations",
+                    "BMH305: Theory of Real Functions",
+                    "BMH306: Group Theory-I",
+                    "BMH307: Multivariate Calculus",
+                    "BMH408: Partial Differential Equations",
+                    "BMH409: Riemann Integration and Series of Functions",
+                    "BMH410: Ring Theory and Linear Algebra-I",
+                    "BMH511: Metric Spaces",
+                    "BMH613: Complex Analysis",
+                    "BMH614: Ring Theory and Linear Algebra-II"
+                ]
+    },
+
+    "sec"   : {
+                "list" : [
+                    "LaTeX and HTML",
+                    "Computer Algebra Systems & Related Software"
+                ]
+
+    },
+
+    "dse"   : {
+                "list" : [
+                    [
+                        "Numerical Analysis",
+                        "Mathematical Modeling and Graph Theory",
+                        "C++ Programming for Mathematics"
+                    ],
+
+                    [
+                        "Probability Theory and Statistics",
+                        "Discrete Mathematics",
+                        "Cryptography and Network Security"
+                    ],
+                    
+                    [
+                        "Mathematical Finance",
+                        "Introduction to Information Theory and Coding",
+                        "Biomathematics"
+                    ],
+                    
+                    [
+                        "Number Theory",
+                        "Linear Programming and Applications",
+                        "Mechanics"
+                    ]
+                ]
+    },
+
+    "aecc"  : {
+                "list" : [
+                    "English",
+                    "Environmental Science"
+    ]},
+
+    "ge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]},
+        
+    "deptge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]}
+}

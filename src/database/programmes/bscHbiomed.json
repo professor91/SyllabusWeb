@@ -1,0 +1,105 @@
+{
+    "meta"  : {
+                "courseType" : "hons",
+                "programmeName" : "BSc Hons Bio-Medical Science",
+                "credits" : {
+                    "dsc" : "6",
+                    "sec" : "6",
+                    "dse" : "6",
+                    "ge" : "6",
+                    "aecc" : "4"
+                },
+                "type" : {
+                    "dsc" : "list",
+                    "sec" : "list",
+                    "dse" : "list"
+                }
+    },
+
+    "core"  : [
+                "Bioorganic Chemistry",
+                "Cell and Radiation Biology",
+                "Principles of Genetics",
+                "Human Physiology and Anatomy I",
+                "Biochemistry",
+                "Human Physiology and Anatomy II",
+                "Medical Microbiology",
+                "Immunobiology",
+                "Molecular Biology",
+                "Medicinal Chemistry",
+                "Biophysics",
+                "Pharmacology",
+                "Human Pathology",
+                "Toxicology"
+    ],
+
+    "dsc"   : {
+                "list": [
+                    "Bioorganic Chemistry",
+                    "Cell and Radiation Biology",
+                    "Principles of Genetics",
+                    "Human Physiology and Anatomy I",
+                    "Biochemistry",
+                    "Human Physiology and Anatomy II",
+                    "Medical Microbiology",
+                    "Immunobiology",
+                    "Molecular Biology",
+                    "Medicinal Chemistry",
+                    "Biophysics",
+                    "Pharmacology",
+                    "Human Pathology",
+                    "Toxicology"
+                ]
+    },
+
+    "sec"   : {
+                "list": [
+                    "Methods in Epidemiological Data Analysis (EDA)",
+                    "Medical Laboratory Diagnostics (MLD)",
+                    "Techniques for Forensic Science",
+                    "Tools in Modern Biology"
+                ]
+    },
+
+    "dse"   : {
+                "list": [
+                    "Computational Biology and Drug Design",
+                    "Genome Organization and Function",
+                    "Human Genetics",
+                    "Medical Biochemistry",
+                    "Medical Biotechnology",
+                    "Project Work"
+                ]
+    },
+
+    "aecc"  : {
+                "list": [
+                    "English",
+                    "Environmental Science"
+                ]
+    },
+
+    "ge"    : {
+                "list": [
+                    "GE-1",
+                    "GE-2",
+                    "GE-3",
+                    "GE-4"
+                ]
+    },
+
+    "deptge"    : {
+        "list": [
+            "Basics of Immunology",
+            "Biological Chemistry",
+            "Biosafety and Bioethics",
+            "Biostatistics",
+            "Bridging Information Technology and Biotechnology",
+            "Concepts in Biotechnology",
+            "Concepts in Medicinal Chemistry and Drug Development",
+            "Intellectual Property Rights (IPR) for Biologists",
+            "Pathological Basis of Diseases",
+            "Pharmacology and Toxicology",
+            "Tools and Model Organisms in Biomedical Research"
+        ]}
+}

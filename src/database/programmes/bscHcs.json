@@ -1,0 +1,111 @@
+{
+    "meta"  : {
+                "courseType" : "hons",
+                "programmeName" : "BSc Hons Computer Science",
+                "credits" : {
+                    "dsc" : "6",
+                    "sec" : "6",
+                    "dse" : "6",
+                    "ge" : "6",
+                    "aecc" : "4"
+                },
+                "type" : {
+                    "dsc" : "list",
+                    "sec" : "sublist",
+                    "dse" : "sublist"
+                }
+    },
+
+    "core"  : [
+                "Programming Fundamentals Using C++",
+                "Computer Science Architecture",
+                "Programming in JAVA",
+                "Discrete Structures",
+                "Data Structure",
+                "Operating System",
+                "Computer Networks",
+                "Design & Analysis of Algorithms",
+                "Software Engineering",
+                "Database Management Systems",
+                "Internet Technologies",
+                "Theory of Computation",
+                "Artificial Intelligence",
+                "Computer Graphics"
+    ],
+
+    "dsc"   : {
+                "list": [
+                    "BHCS01 - Programming Fundamentals Using C++",
+                    "BHCS02 - Computer Science Architecture",
+                    "BHCS03 - Programming in JAVA",
+                    "BHCS04 - Discrete Structures",
+                    "BHCS05 - Data Structure",
+                    "BHCS06 - Operating System",
+                    "BHCS07 - Computer Networks",
+                    "BHCS08 - Design & Analysis of Algorithms",
+                    "BHCS09 - Software Engineering",
+                    "BHCS10 - Database Management Systems",
+                    "BHCS11 - Internet Technologies",
+                    "BHCS12 - Theory of Computation",
+                    "BHCS13 - Artificial Intelligence",
+                    "BHCS14 - Computer Graphics"
+                ]},
+
+    "sec"   : {
+                "list": [
+                    [
+                    "BHCS19A - Web Design and Development",
+                    "BHCS19B - Programming in Python"
+                    ],
+                    [
+                    "BHCS20A - Android Programming",
+                    "BHCS20B - Introduction to R Programming"
+                    ]
+                ]},
+
+    "dse"   : {
+                "list": [
+                    [
+                    "BHCS15A - Data Analysis and Visualization",
+                    "BHCS15B - System Programming",
+                    "BHCS15C - Combinatorial Optimization"
+                    ],
+                    [
+                    "BHCS16A - Digital Image Processing",
+                    "BHCS16B - Microprocessors"
+                    ],
+                    [
+                    "BHCS17A - Information Security",
+                    "BHCS17B - Data Mining",
+                    "BHCS17C - Advanced Algorithms"
+                    ],
+                    [
+                    "BHCS18A - Machine Learning",
+                    "BHCS18B - Deep Learning",
+                    "BHCS18C - Unix Network Programming",
+                    "BHCS18D - Project Work/ Dissertation"
+                    ]
+                ]},
+
+    "aecc"  : {
+                "list": [
+                    "English",
+                    "Environmental Science"
+                ]},
+
+    "ge"    : {
+                "list": [
+                    "GE-1",
+                    "GE-2",
+                    "GE-3",
+                    "GE-4"
+                ]},
+
+    "deptge"    : {
+        "list": [
+            "GE-1",
+            "GE-2",
+            "GE-3",
+            "GE-4"
+        ]}
+}

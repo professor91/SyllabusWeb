@@ -1,0 +1,20 @@
+{
+    "Courses" : [
+        ["Ph.D. Comparative Indian Literature",                 ""],
+        ["Ph.D. Education",                                     ""],
+        ["Ph.D. Adult Continuing Education & Extension",        ""],
+        ["Ph.D. African Studies",                               ""],
+        ["Ph.D. Chinese Studies",                               ""],
+        ["Ph.D. Buddhist Studies",                              ""],
+        ["Ph.D. Economics",                                     ""],
+        ["Ph.D. History",                                       ""],
+        ["Ph.D. Political Science",                             ""],
+        ["Ph.D. Philosophy",                                    ""],
+        ["Ph.D. Psychology",                                    ""],
+        ["Ph.D. Social Work",                                   ""],
+        ["Ph.D. Sociology",                                     ""],
+        ["Ph.D. Stress Analysis",                               ""],
+        ["Ph.D. Library & Information Science",                 ""],
+        ["Ph.D. Music",                                         ""]
+    ]
+}
