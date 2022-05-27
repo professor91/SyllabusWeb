@@ -38,7 +38,7 @@ function App() {
                   )
               } */}
 
-              <Route path="/programmes/ug/bschcs" element={<ProgrammePage jsonData= {require('./database/programmes/bscHcs.json')}/>}></Route>
+              <Route path="/programmes/ug/bscHcs" element={<ProgrammePage jsonData= {require('./database/programmes/bscHcs.json')}/>}></Route>
               <Route path="/programmes/ug/bscHanthro" element={<ProgrammePage jsonData= {require('./database/programmes/bscHanthro.json')}/>}></Route>
               <Route path="/programmes/ug/bscHbiochem" element={<ProgrammePage jsonData= {require('./database/programmes/bscHbiochem.json')}/>}></Route>
               <Route path="/programmes/ug/bscHbiomed" element={<ProgrammePage jsonData= {require('./database/programmes/bscHbiomed.json')}/>}></Route>
