@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SyllabusWeb/static/css/main.e60c0b8c.css",
+    "main.js": "/SyllabusWeb/static/js/main.b45fdcf3.js",
+    "index.html": "/SyllabusWeb/index.html",
+    "main.e60c0b8c.css.map": "/SyllabusWeb/static/css/main.e60c0b8c.css.map",
+    "main.b45fdcf3.js.map": "/SyllabusWeb/static/js/main.b45fdcf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e60c0b8c.css",
+    "static/js/main.b45fdcf3.js"
+  ]
+}
