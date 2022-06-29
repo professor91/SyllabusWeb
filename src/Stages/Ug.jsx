@@ -2,7 +2,7 @@ import ProgrammesGrid from "../Components/Stages/Stages";
 
 const Ug = () =>{
     return(
-        <div class="container syllabus-container">
+        <div className="container syllabus-container">
             <ProgrammesGrid
             heading= "BSc Courses"
 			type= "bsc"

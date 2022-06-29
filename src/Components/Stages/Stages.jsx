@@ -84,17 +84,18 @@ const ProgrammesGrid= (props) => {
     const final= jsonData["Courses"]
 
     return(
-        <div class="container">
-            <div class="programme-grid-header"> {props.heading} </div>
-            <div class="programme-grid">
+        <div className="container">
+            <div className="programme-grid-header"> {props.heading} </div>
+            <div className="programme-grid">
                 {/* List of All Courses */}
                 {
                     final.map(
                         prog => 
                             <div 
-                                class="programme-grid-item">
+                                className="programme-grid-item"
+                                key={prog[0]}>
                                 <Link
-                                    href={"/programmes/ug/"+prog[1]}>
+                                    to={"/programmes/ug/"+prog[1]}>
                                     {prog[0]}
                                 </Link>
                             </div>
