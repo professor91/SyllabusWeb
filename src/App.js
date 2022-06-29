@@ -17,7 +17,7 @@ import ProgrammePage from "./Components/ProgrammePage/ProgrammePage";
 
 function App() {
 
-    const progMap= require("./database/progmap.json")
+    // const progMap= require("./database/progmap.json")
 
     return(
       <Router>

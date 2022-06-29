@@ -11,6 +11,7 @@
 */
 
 import "./Stages.css"
+import { Link } from "react-router-dom"
 
 const ProgrammesGrid= (props) => {
     var jsonData
@@ -92,10 +93,10 @@ const ProgrammesGrid= (props) => {
                         prog => 
                             <div 
                                 class="programme-grid-item">
-                                <a 
+                                <Link
                                     href={"/programmes/ug/"+prog[1]}>
                                     {prog[0]}
-                                </a>
+                                </Link>
                             </div>
                     )
                 }
