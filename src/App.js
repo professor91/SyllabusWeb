@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // component imports
 import TopBar from "./Components/Topbar/TopBar";
 import Footer from "./Components/Footer/Footer";
-import Home from "./Components/Home/Home"
+// import Home from "./Components/Home/Home"
 
 import Ug from "./Stages/Ug";
 import Pg from "./Stages/Pg";
@@ -24,12 +24,12 @@ function App() {
           <TopBar heading="Syllabus Web"/>
 
           <Routes>
-              <Route path="/SyllabusWeb" element={<Home />}></Route>
-              <Route path="/programmes/ug" element={<Ug />}></Route>
-              <Route path="/programmes/pg" element={<Pg />}></Route>
-              <Route path="/programmes/phd" element={<PhD />}></Route>
-              <Route path="/programmes/certificate" element={<Certificate />}></Route>
-              <Route path="/programmes/diploma" element={<Diploma />}></Route>
+              {/* <Route path="/SyllabusWeb" element={<Home />}></Route> */}
+              <Route path="/syllabusWeb/programmes/ug" element={<Ug />}></Route>
+              <Route path="/syllabusWeb/programmes/pg" element={<Pg />}></Route>
+              <Route path="/syllabusWeb/programmes/phd" element={<PhD />}></Route>
+              <Route path="/syllabusWeb/programmes/certificate" element={<Certificate />}></Route>
+              <Route path="/syllabusWeb/programmes/diploma" element={<Diploma />}></Route>
               
               {/* {
                   progMap.map(

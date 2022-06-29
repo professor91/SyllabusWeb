@@ -13,7 +13,7 @@ const TopBar = (props) => {
                 className="container-fluid">
                 <Link
                     className="navbar-brand h1 text-primary fontSize-40"
-                    to="/SyllabusWeb">
+                    to="/syllabusWeb/programmes/ug">
                     {props.heading}
                 </Link>
     
@@ -39,7 +39,7 @@ const TopBar = (props) => {
                             <Link
                                 className="nav-link text-primary active"
                                 aria-current="page"
-                                to="/SyllabusWeb">
+                                to="/syllabusWeb/programmes/ug">
                                 Home
                             </Link>
                         </li>
@@ -59,19 +59,19 @@ const TopBar = (props) => {
                                 aria-labelledby="navbarDropdown">
                                 <li><Link
                                         className="dropdown-item"
-                                        to="/programmes/ug">
+                                        to="/syllabusWeb/programmes/ug">
                                         UG
                                     </Link>
                                 </li>
                                 <li><Link
                                         className="dropdown-item"
-                                        to="/programmes/pg">
+                                        to="/syllabusWeb/programmes/pg">
                                         PG
                                     </Link>
                                 </li>
                                 <li><Link
                                         className="dropdown-item"
-                                        to="/programmes/phd">
+                                        to="/syllabusWeb/programmes/phd">
                                         PhD
                                     </Link>
                                 </li>
@@ -80,13 +80,13 @@ const TopBar = (props) => {
                                 </li>
                                 <li><Link
                                         className="dropdown-item"
-                                        to="/programmes/certificate">
+                                        to="/syllabusWeb/programmes/certificate">
                                         Certificate
                                     </Link>
                                 </li>
                                 <li><Link
                                         className="dropdown-item"
-                                        to="/programmes/diploma">
+                                        to="/syllabusWeb/programmes/diploma">
                                         Diploma
                                     </Link>
                                 </li>
@@ -96,7 +96,7 @@ const TopBar = (props) => {
                             className="nav-item">
                             <Link
                                 className="nav-link"
-                                to="/">
+                                to="/syllabusWeb/contribute">
                                 Contribute
                             </Link>
                         </li>
